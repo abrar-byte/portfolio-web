@@ -9,7 +9,7 @@ const Project = ({ item }) => {
         {/* <img className='rounded-2xl' src={item.image} alt='' /> */}
       </div>
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
-      <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
+      <h3 className='text-3xl md:text-5xl font-semibold capitalize mb-3'>{item.name}</h3>
       <p className='text-base max-w-md'>
         {item.desc}
       </p>
