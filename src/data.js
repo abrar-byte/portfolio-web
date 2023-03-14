@@ -10,70 +10,69 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
-} from 'react-icons/fi';
+} from "react-icons/fi";
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
+import UpworkBrandIcon from "./assets/img/brands/upwork.png";
+import FiverBrandIcon from "./assets/img/brands/fiverr.png";
+import BehanceBrandIcon from "./assets/img/brands/behance.png";
+import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from "./assets/img/projects/rekreasi.png";
+import Project2 from "./assets/img/projects/shotflow.png";
+import NoImage from "./assets/img/no-image-lg.png";
+
+import Project3 from "./assets/img/projects/harianjogja.png";
+import Project4 from "./assets/img/projects/p4.webp";
+import Project5 from "./assets/img/projects/p5.webp";
+import Project6 from "./assets/img/projects/p6.webp";
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
+import SkillImg1 from "./assets/img/skills/html5.png";
+import SkillImg2 from "./assets/img/skills/css3.png";
+import SkillImg3 from "./assets/img/skills/js.png";
+import SkillImg4 from "./assets/img/skills/reactjs.png";
+import SkillImg5 from "./assets/img/skills/nextjs.png";
+import SkillImg6 from "./assets/img/skills/nodejs.png";
+import SkillImg7 from "./assets/img/skills/git.png";
 // import SkillImg8 from './assets/img/skills/figma.png';
-import SkillImg8 from './assets/img/skills/php.png';
-import SkillImg9 from './assets/img/skills/laravel.png';
-import SkillImg10 from './assets/img/skills/mysql.png';
-import SkillImg11 from './assets/img/skills/postgre.png';
-
-
-
+import SkillImg8 from "./assets/img/skills/php.png";
+import SkillImg9 from "./assets/img/skills/laravel.png";
+import SkillImg10 from "./assets/img/skills/mysql.png";
+import SkillImg11 from "./assets/img/skills/postgre.png";
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
+import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
+import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: "home",
+    href: "home",
   },
   {
-    name: 'about',
-    href: 'about',
+    name: "about",
+    href: "about",
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: "portfolio",
+    href: "portfolio",
   },
   {
-    name: 'services',
-    href: 'services',
+    name: "services",
+    href: "services",
   },
   // {
   //   name: 'testimonials',
   //   href: 'testimonials',
   // },
   {
-    name: 'contact',
-    href: 'contact',
+    name: "contact",
+    href: "contact",
   },
 ];
 
@@ -81,27 +80,27 @@ export const navigation = [
 export const social = [
   {
     icon: <FiMail />,
-    href: 'mailto:usamahhafidz99@gmail.com',
+    href: "mailto:usamahhafidz99@gmail.com",
   },
   {
     icon: <FiInstagram />,
-    href: 'https://www.instagram.com/hafidzabrarr/',
+    href: "https://www.instagram.com/hafidzabrarr/",
   },
   {
     icon: <FiGithub />,
-    href: 'https://github.com/abrar-byte',
-  }
+    href: "https://github.com/abrar-byte",
+  },
 ];
 
 // companies
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: 'https://www.freelancer.com/u/usamahhafidz99',
+    href: "https://www.freelancer.com/u/usamahhafidz99",
   },
   {
     img: UpworkBrandIcon,
-    href: 'https://www.upwork.com/freelancers/~01bb4591bfc627d0e3',
+    href: "https://www.upwork.com/freelancers/~01bb4591bfc627d0e3",
   },
   // {
   //   img: FiverBrandIcon,
@@ -120,91 +119,104 @@ export const brands = [
 // projects
 export const projectsData = [
   {
-    id: '1',
+    id: "1",
     image: Project1,
-    name: 'Rekreasi',
-    category: 'web development',
-    desc: 'Travel app ',
-    link:'https://www.rekreasi.com/'
-
+    name: "Rekreasi",
+    category: "web development",
+    desc: "Travel app ",
+    link: "https://www.rekreasi.com/",
+    tech: "Next Js, Tailwind Css, Firebase, Redux, Axios, Firebase, React-hook-form, google-map-react,react-slick, react-select, headless UI,react-toastify",
   },
   {
-    id: '2',
+    id: "2",
     image: Project2,
-    name: 'Shotflow',
-    category: 'web development',
-    desc: 'Property video booking app',
-    link:'https://shotflow-development.web.app/'
+    name: "Shotflow",
+    category: "web development",
+    desc: "Property video booking app",
+    link: "https://shotflow-development.web.app/",
+    tech: "React Js, Tailwind Css, Firebase, Redux, Axios, Firebase, google-map-react,headless UI,twilio",
+
+  },
+  // {
+  //   id: "3",
+  //   image: Project3,
+  //   name: "Bahan Dasar",
+  //   category: "landing page",
+  //   desc: "Landing page for online store",
+  //   link: "https://www.bahandasar.com/",
+  //   tech:"Next Js, Tailwind Css, Headless UI"
+  // },
+  {
+    id: "4",
+    image: NoImage,
+    name: "Dashboards for Indonesian Human Resource Development Centers",
+    category:"web development",
+    desc: "Information system dashboard for Indonesian Human Resource Development Centers",
+    link: "private",
+    tech: "React Js, Tailwind Css, Redux-toolkit, Axios, Firebase,headless UI",
 
   },
   {
-    id: '3',
+    id: "5",
+    image: NoImage,
+    name: "Call Pro",
+    category:"web development",
+    desc: "Home Property",
+    link: "private",
+    tech: "React Js, Ant Design, Redux, Axios, react-google-map",
+  },
+  {
+    id: "6",
+    image: NoImage,
+    name: "Simo hospital information system",
+    category:"web development",
+    desc: "Information System for Hospital",
+    link: "private",
+    tech: "React Js, Bootstrap, React-Bootstrap, Axios, Formik, Yup, react-flatpickr, dayjs",
+  },
+  {
+    id: "7",
     image: Project3,
-    name: 'Bahan Dasar',
-    category: 'landing page',
-    desc: 'Landing page for online store',
-    link:'https://www.bahandasar.com/'
-
-
-    
+    name: "Harian Jogja",
+    category:"web development",
+    desc: "News Portal",
+    link: "https://harianjogja.com/",
+    tech: "Next Js, Tailwind Css, Axios, Firebase, Headless UI, Formik, Yup, moment js, react-date-range",
   },
   {
-    id: '4',
-    image: Project4,
-    name: 'Online Store',
-    category: 'personal project',
-    desc: 'Online Store personal project',
-    link:'http://arrogant-star.surge.sh/'
-
-
+    id: "8",
+    image: NoImage,
+    name: "Clean Book",
+    category:"web development",
+    desc: "Dashboard for Invoice Management",
+    link: "private",
+    tech: "React Js, Tailwind Css, Axios,Headless UI, Formik, Yup, moment js, jspdf",
   },
   {
-    id: '5',
-    image: Project5,
-    name: 'Tennis Score',
-    category: 'personal project',
-    desc: 'Tennis Score personal project',
-    link:'https://tennis-score.vercel.app/'
-
-
-
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'Calculator',
-    category: 'personal project',
-    desc: 'Calculator personal project',
-    link:'https://calculator99.vercel.app/'
-
-
-  },
-  {
-    id: '7',
-    image: Project6,
-    name: 'British Propolis Personal Web',
-    category: 'Landing page',
-    desc: 'Landing page for British Propolis',
-    link:'http://tsabitbp.surge.sh/ '
-
-
+    id: "9",
+    image: NoImage,
+    name: "POS the lawou group",
+    category:"web development",
+    desc: "Dashboard for Lawu Group Management",
+    link: "private",
+    tech: "React Js, Tailwind Css, Axios,Headless UI, Formik, Yup, moment js, react-date-range",
   },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'All',
+    name: "All",
   },
+  // {
+  //   name: "Landing Page",
+  // },
+  // {
+  //   name: "Personal Project",
+  // },
   {
-    name: 'Landing Page',
+    name: "Web Development",
   },
-  {
-    name: 'Personal Project',
-  },
-  {
-    name: 'Web Development',
-  }
 ];
 
 // skill
@@ -246,24 +258,23 @@ export const skills = [
 
 // services
 export const services = [
-  {
-    icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      ' I make good and responsive designs, both with bootsrap, tailwind, antdesign, and other css frameworks',
-  },
+  // {
+  //   icon: <FiLayout />,
+  //   name: 'Web Design',
+  //   description:
+  //     ' I make good and responsive designs, both with bootsrap, tailwind, antdesign, and other css frameworks',
+  // },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'I build, create, and maintain website.',
+    name: "Web Development",
+    description: "I build, create, and maintain website.",
   },
-  {
-    icon: <FiPenTool />,
-    name: 'Landing Page',
-    description:
-      'I make a single page website',
-  },
+  // {
+  //   icon: <FiPenTool />,
+  //   name: 'Landing Page',
+  //   description:
+  //     'I make a single page website',
+  // },
   // {
   //   icon: <FiTag />,
   //   name: 'SEO',
@@ -277,23 +288,23 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
+    authorName: "Olivia Doe",
+    authorPosition: "Head of Design, Google",
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
+    authorName: "Olivia Doe",
+    authorPosition: "Head of Design, Google",
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
+    authorName: "Olivia Doe",
+    authorPosition: "Head of Design, Google",
   },
 ];
 
@@ -301,17 +312,16 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at usamahhafidz99@gmail.com',
-    href:"mailto:usamahhafidz99@gmail.com"
+    title: "Have a question?",
+    subtitle: "I am here to help you.",
+    description: "Email me at usamahhafidz99@gmail.com",
+    href: "mailto:usamahhafidz99@gmail.com",
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Surakarta, Central Java, Indonesia',
-    description: 'Serving clients worldwide',
-    href:"https://goo.gl/maps/6QtTq8fM4odfibda9"
-
+    title: "Current Location",
+    subtitle: "Surakarta, Central Java, Indonesia",
+    description: "Serving clients worldwide",
+    href: "https://goo.gl/maps/6QtTq8fM4odfibda9",
   },
 ];
