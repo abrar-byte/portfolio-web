@@ -21,10 +21,14 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               Proficient JS developer especially in React with experience on many projects
             </p>
+            <div className='flex justify-between gap-10'>
+
             <a href='mailto:usamahhafidz99@gmail.com' target='blank' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all cursor-pointer'>
 
               Work with me
             </a>
+            <a href="/CV USAMAH_HAFIDZ.pdf" download className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all cursor-pointer'>Download CV</a>
+            </div>
           </div>
           <div className='lg:flex flex-1 justify-end md:items-start h-full'>
             <img src={ProfileImg} alt='' />

@@ -13,6 +13,9 @@ const Project = ({ item }) => {
       <p className='text-base max-w-md'>
         {item.desc}
       </p>
+      <p className='text-sm max-w-md mt-5'>
+        Technology : {item.tech}
+      </p>
       </a>
 
     </div>
